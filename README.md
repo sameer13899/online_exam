@@ -18,7 +18,7 @@ Instalation ::
 Default admin email id is head@gmail.com and password is head .
 admin password is md5 encypted.
 
-For any query or feedback contact me at kpsagar1999@gmail.com.
+For any query or feedback contact me at admin@sameeris.online.
 
 Thanx.
 
@@ -31,7 +31,7 @@ INSTALLATION STEPS :
 - Open phpmyadmin
 - Create Database named project1​.
 - Import database project1.sql from downloaded folder(inside database)
-4. Open Your browser put inside "http://localhost/Online-Exam-System/"
+4. Open Your browser put inside "http://localhost/online_exam/"
 5. To Login as admin put the following details.
 - Admin Login Details
 - Login Id: head@gmail.com
