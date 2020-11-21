@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Onine examiner</title>
+<link rel = "icon" href = "photo.png" type = "image/x-icon"> 
 <link  rel="stylesheet" href="css/bootstrap.min.css"/>
  <link  rel="stylesheet" href="css/bootstrap-theme.min.css"/>    
  <link rel="stylesheet" href="css/main.css">
@@ -579,20 +580,35 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
   <h2>Developers</h2><br>
   <h4>Who are we</h4>
   <div class="row text-center slideanim">
-    <div class="col-sm-4">
+    <div class="col-sm-3">
       <div class="thumbnail">
-        <img src="photo.jpg" alt="PRASANTH" width="400" height="300">
-        <p><strong>PRASANTH SAGAR KOTTAKOTA</strong></p>
-        <p>Nitk 3rd year BTECH</p>
+        <img src="photo.png" alt="SAMEER" width="400" height="300">
+        <p><strong>SAMEER SONI</strong></p>
+        <p>SSGI 3rd Year BTECH</p>
       </div>
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-3">
       <div class="thumbnail">
-        <img src="profilepic.jpg" alt="VIJAY" width="400" height="300">
-        <p><strong>VIJAY KUMAR</strong></p>
-        <p>Nitk 3rd year BTECH</p>
+        <img src="photo.png" alt="SAMEER" width="400" height="300">
+        <p><strong>SAMEER SONI</strong></p>
+        <p>SSGI 3rd Year BTECH</p>
       </div>
     </div>
+    <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="photo.png" alt="SAMEER" width="400" height="300">
+        <p><strong>SAMEER SONI</strong></p>
+        <p>SSGI 3rd Year BTECH</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="photo.png" alt="SAMEER" width="400" height="300">
+        <p><strong>SAMEER SONI</strong></p>
+        <p>SSGI 3rd Year BTECH</p>
+      </div>
+    </div>
+
     
   </div><br>
   
@@ -638,7 +654,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
       <h4>Online examination System is conducting a test online to measure the knowledge of the participants on a given topic. In the olden days everybody had to gather in a classroom at the same time to take an exam. With online examination students can do the exam online, in their own time and with their own device, regardless where they life. You online need a browser and internet connection. </h4><br>
       <p>Online Examination System (OES) is a platform to hold online examinations. It caters to many requirements of holding online examinations. The system can generate statistical data for records. The system makes it possible to maintain a repository of questions, and then generate papers at a later stage, such that the lecturer has more flexibility over holding online quizzes. Furthermore, it provides the functionality to mark the papers automatically.</p> 
 
-      <br><button class="btn btn-default btn-lg">Get in Touch</button>
+      <!-- <br><button class="btn btn-default btn-lg">Get in Touch</button> -->
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-signal logo"></span>
@@ -653,9 +669,9 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
   <div class="row">
     <div class="col-sm-5">
       <p>Contact us and we'll get back to you within 24 hours.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Karnataka, INDIA</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +91 9491849828 </p>
-      <p><span class="glyphicon glyphicon-envelope"></span> kpsagar1999@gmail.com</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Bhilai, INDIA</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +91 7999651686 </p>
+      <p><span class="glyphicon glyphicon-envelope"></span> admin@sameeris.online</p>
     </div>
     <div class="col-sm-7 slideanim">
 
@@ -697,7 +713,7 @@ else
 </div>
 
 
-<!-- Add Google Maps -->
+<!-- Add Google Maps
 <div id="googleMap" style="height:400px;width:100%;"></div>
 <script>
 function myMap() {
@@ -708,7 +724,8 @@ var marker = new google.maps.Marker({position:myCenter});
 marker.setMap(map);
 }
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFj4gNzJYXg7z8mlzs0fHLKvi1MAZYI3c&callback=myMap"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFj4gNzJYXg7z8mlzs0fHLKvi1MAZYI3c&callback=myMap"></script> -->
+
 <!--
 To use this code on your website, get a free API key from Google.
 Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp

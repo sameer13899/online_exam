@@ -8,7 +8,7 @@ $email = $_POST['email'];
 $college = $_POST['college'];
 $mob = $_POST['mob'];
 $password = $_POST['password'];
-// $password = md5($password); I comented this line - so no md5 encryption
+$password = md5($password);
 
 $q3=mysqli_query($con,"INSERT INTO user VALUES  ('$name' , '$gender' , '$college','$email' ,'$mob', '$password')");
 if($q3)
