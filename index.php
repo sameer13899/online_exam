@@ -505,7 +505,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="form-group">
   <label class="col-md-3 control-label" for=""></label>
   <div class="col-md-6"> 
-    <input  type="submit"  style="background: #337ab7;" class="sub" value="Create new account"  />
+    <button type="submit" class="sub btn btn-primary">Create new account</button>
   </div>
 </div>
 </fieldset>
