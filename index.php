@@ -35,11 +35,6 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
-  body 
-
-.stext {
-	 font-family: 'Lato', sans-serif;
-}
 	 
 .modal {
   text-align: center;
@@ -372,10 +367,10 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-globe logo slideanim"></span>
     </div>
-    <div class="col-sm-8 stext">
+    <div class="col-sm-8">
       <h2>Our Values</h2><br>
       <h4><strong>MISSION:</strong> Our mission is using one platform for examinations. Reduce paperwork and offering quick and accurate results. </h4><br>
-      <p><strong>VISION:</strong> Our vision of Online Exam System is more popularly helps for our modern age system. It helps us to use the present  technology into examiantion system . It can be helpful for quick and accurate results.Through it helps for only limited sector of people , it is cost efficient , eco friendly and so on.</p>
+      <h4><strong>VISION:</strong> Our vision of Online Exam System is more popularly helps for our modern age system. It helps us to use the present  technology into examiantion system . It can be helpful for quick and accurate results.Through it helps for only limited sector of people , it is cost efficient , eco friendly and so on.</h4>
     </div>
   </div>
 </div>
