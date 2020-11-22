@@ -3,8 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>Onine examiner</title>
+<title>Onine Exam</title>
 <link rel = "icon" href = "photo.png" type = "image/x-icon"> 
 <link  rel="stylesheet" href="css/bootstrap.min.css"/>
  <link  rel="stylesheet" href="css/bootstrap-theme.min.css"/>    
@@ -308,7 +307,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="col-md-6">
 <form role="form" method="post" action="head.php?q=index.php">
 <div class="form-group">
-<input type="text" name="uname" maxlength="20"  placeholder="Admin user id" class="form-control"/> 
+<input type="text" name="uname" maxlength="20"  placeholder="Enter your email" class="form-control"/> 
 </div>
 <div class="form-group">
 <input type="password" name="password" maxlength="15" placeholder="Password" class="form-control"/>
@@ -342,7 +341,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="col-md-6">
 <form role="form" method="post" action="admin.php?q=index.php">
 <div class="form-group">
-<input type="text" name="uname" maxlength="20"  placeholder="Teacher user id" class="form-control"/> 
+<input type="text" name="uname" maxlength="20"  placeholder="Enter your email" class="form-control"/> 
 </div>
 <div class="form-group">
 <input type="password" name="password" maxlength="15" placeholder="Password" class="form-control"/>
@@ -384,7 +383,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
     <div class="modal-content title1">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title title1"><span style="color:#f4511e;font-family:Montserrat, sans-serif; font-size: 20px !important;letter-spacing: 4px; "><b>LOGIN -USER</b></span></h4>
+        <h4 class="modal-title title1"><span style="color:#f4511e;font-family:Montserrat, sans-serif; font-size: 20px !important;letter-spacing: 4px; "><b>LOGIN - USER</b></span></h4>
       </div>
       <div class="modal-body">
         <form class="form-horizontal" action="login.php?q=index.php" method="POST">
@@ -395,7 +394,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="form-group">
   <label class="col-md-3 control-label" for="email"></label>  
   <div class="col-md-6">
-  <input id="email" name="email" placeholder="Enter your email-id" class="form-control input-md" type="email">
+  <input id="email" name="email" placeholder="Enter your email" class="form-control input-md" type="email">
     
   </div>
 </div>
@@ -405,7 +404,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="form-group">
   <label class="col-md-3 control-label" for="password"></label>
   <div class="col-md-6">
-    <input id="password" name="password" placeholder="Enter your Password" class="form-control input-md" type="password">
+    <input id="password" name="password" placeholder="Password" class="form-control input-md" type="password">
     
   </div>
 </div>
@@ -439,7 +438,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="form-group">
   <label class="col-md-3 control-label" for="name"></label>  
   <div class="col-md-6">
-  <input id="name" name="name" placeholder="Enter your Name" class="form-control input-md" type="text">
+  <input id="name" name="name" placeholder="Enter your name" class="form-control input-md" type="text">
     
   </div>
 </div>
@@ -459,7 +458,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="form-group">
   <label class="col-md-3 control-label" for="name"></label>  
   <div class="col-md-6">
-  <input id="college" name="college" placeholder="Enter your College name" class="form-control input-md" type="text">
+  <input id="college" name="college" placeholder="Enter your college name" class="form-control input-md" type="text">
     
   </div>
 </div>
@@ -469,7 +468,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="form-group">
   <label class="col-md-3 control-label title1" for="email"></label>
   <div class="col-md-6">
-    <input id="email" name="email" placeholder="Enter your Email-id" class="form-control input-md" type="email">
+    <input id="email" name="email" placeholder="Enter your email" class="form-control input-md" type="email">
     
   </div>
 </div>
@@ -478,7 +477,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="form-group">
   <label class="col-md-3 control-label" for="mob"></label>  
   <div class="col-md-6">
-  <input id="mob" name="mob" placeholder="Enter Mobile Number" class="form-control input-md" type="number">
+  <input id="mob" name="mob" placeholder="Enter mobile number" class="form-control input-md" type="number">
     
   </div>
 </div>
@@ -488,7 +487,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="form-group">
   <label class="col-md-3 control-label" for="password"></label>
   <div class="col-md-6">
-    <input id="password" name="password" placeholder="Enter Password" class="form-control input-md" type="password">
+    <input id="password" name="password" placeholder="Create a new password" class="form-control input-md" type="password">
     
   </div>
 </div>
@@ -496,7 +495,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="form-group">
   <label class="col-md-3 control-label" for="cpassword"></label>
   <div class="col-md-6">
-    <input id="cpassword" name="cpassword" placeholder="Confirm Password" class="form-control input-md" type="password">
+    <input id="cpassword" name="cpassword" placeholder="Re-enter Password" class="form-control input-md" type="password">
     
   </div>
 </div>
@@ -506,7 +505,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="form-group">
   <label class="col-md-3 control-label" for=""></label>
   <div class="col-md-6"> 
-    <input  type="submit"  style="background: #f4511e;" class="sub" value="sign up"  />
+    <input  type="submit"  style="background: #337ab7;" class="sub" value="Create new account"  />
   </div>
 </div>
 </fieldset>
@@ -533,17 +532,17 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-globe logo-small"></span>
       <h4>e Examination</h4>
-      <p> Multiple users One platform</p>
+      <p><h5> Multiple users One platform</h5></p>
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-euro logo-small"></span>
       <h4>COST OPTIMISED</h4>
-      <p>Reduces paper work</p>
+      <p><h5>Reduces paper work</h5></p>
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-user logo-small"></span>
       <h4>USER SATISFACTION</h4>
-      <p>User satisfaction is our satisfaction..</p>
+      <p><h5>User satisfaction is our satisfaction..</h5></p>
     </div>
   </div>
   <br><br>
@@ -551,12 +550,12 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-leaf logo-small"></span>
       <h4>GREEN</h4>
-      <p>Eco friendly</p>
+      <p><h5>Eco friendly</h5></p>
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-certificate logo-small"></span>
       <h4>CERTIFIED</h4>
-      <p>Certified from the government of India..</p>
+      <p><h5>Certified from the government of India..</h5></p>
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-envelope logo-small"></span>
@@ -654,10 +653,10 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
     <div class="col-sm-5">
-      <p>Contact us and we'll get back to you within 24 hours.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Shri Shankaracharya Group of Institutions, Bhilai, Chhattisgarh</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +91 9999999999 </p>
-      <p><span class="glyphicon glyphicon-envelope"></span> admin@gmail.com</p>
+      <p><h5>Contact us and we'll get back to you within 24 hours.</h5></p>
+      <p><h5><span class="glyphicon glyphicon-map-marker"></span> Shri Shankaracharya Group of Institutions, Bhilai, Chhattisgarh</h5></p>
+      <p><h5><span class="glyphicon glyphicon-phone"></span> +91 9999999999 </h5></p>
+      <p><h5><span class="glyphicon glyphicon-envelope"></span> admin@gmail.com</h5></p>
     </div>
     <div class="col-sm-7 slideanim">
 
@@ -702,7 +701,7 @@ else
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  <p>Thank you for visiting us.</p>
+  <p><h5>Thank you for visiting us.</h5></p>
 </footer>
 
 <script>

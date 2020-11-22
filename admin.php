@@ -12,7 +12,7 @@ session_start();
 if(isset($_SESSION['email'])){
 session_unset();}
 $_SESSION["name"] = 'Teacher';
-$_SESSION["key"] ='prasanth123';
+$_SESSION["key"] ='sameer123';
 $_SESSION["email"] = $email;
 header("location:dash.php?q=0");
 }

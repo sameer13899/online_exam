@@ -4,7 +4,7 @@ session_start();
 $email=$_SESSION['email'];
 //delete feedback
 if(isset($_SESSION['key'])){
-if(@$_GET['fdid'] && $_SESSION['key']=='prasanth123') {
+if(@$_GET['fdid'] && $_SESSION['key']=='sameer123') {
 $id=@$_GET['fdid'];
 $result = mysqli_query($con,"DELETE FROM feedback WHERE id='$id' ") or die('Error');
 header("location:headdash.php?q=3");
@@ -13,7 +13,7 @@ header("location:headdash.php?q=3");
 
 //delete user
 if(isset($_SESSION['key'])){
-if(@$_GET['demail'] && $_SESSION['key']=='prasanth123') {
+if(@$_GET['demail'] && $_SESSION['key']=='sameer123') {
 $demail=@$_GET['demail'];
 $r1 = mysqli_query($con,"DELETE FROM rank WHERE email='$demail' ") or die('Error');
 $r2 = mysqli_query($con,"DELETE FROM history WHERE email='$demail' ") or die('Error');
@@ -25,7 +25,7 @@ header("location:headdash.php?q=1");
 //delete admin
 
 if(isset($_SESSION['key'])){
-if(@$_GET['demail1'] && $_SESSION['key']=='prasanth123') {
+if(@$_GET['demail1'] && $_SESSION['key']=='sameer123') {
 $demail1=@$_GET['demail1'];
 
 $result = mysqli_query($con,"DELETE FROM admin WHERE email='$demail1' and role ='admin' ") or die('Error');
@@ -37,7 +37,7 @@ header("location:headdash.php?q=5");
 
 //remove quiz
 if(isset($_SESSION['key'])){
-if(@$_GET['q']== 'rmquiz' && $_SESSION['key']=='prasanth123') {
+if(@$_GET['q']== 'rmquiz' && $_SESSION['key']=='sameer123') {
 $eid=@$_GET['eid'];
 $result = mysqli_query($con,"SELECT * FROM questions WHERE eid='$eid'") or die('Error');
 while($row = mysqli_fetch_array($result)) {
@@ -55,7 +55,7 @@ header("location:dash.php?q=5");
 
 //add quiz
 if(isset($_SESSION['key'])){
-if(@$_GET['q']== 'addquiz' && $_SESSION['key']=='prasanth123') {
+if(@$_GET['q']== 'addquiz' && $_SESSION['key']=='sameer123') {
 $name = $_POST['name'];
 $name= ucwords(strtolower($name));
 $total = $_POST['total'];
@@ -73,7 +73,7 @@ header("location:dash.php?q=4&step=2&eid=$id&n=$total");
 
 //add question
 if(isset($_SESSION['key'])){
-if(@$_GET['q']== 'addqns' && $_SESSION['key']=='prasanth123') {
+if(@$_GET['q']== 'addqns' && $_SESSION['key']=='sameer123') {
 $n=@$_GET['n'];
 $eid=@$_GET['eid'];
 $ch=@$_GET['ch'];
@@ -184,7 +184,7 @@ if($sn != $total)
 $sn++;
 header("location:account.php?q=quiz&step=2&eid=$eid&n=$sn&t=$total")or die('Error152');
 }
-else if( $_SESSION['key']!='prasanth123')
+else if( $_SESSION['key']!='sameer123')
 {
 $q=mysqli_query($con,"SELECT score FROM history WHERE eid='$eid' AND email='$email'" )or die('Error156');
 while($row=mysqli_fetch_array($q) )

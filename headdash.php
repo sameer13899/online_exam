@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Online examiner </title>
+<title>Online Exam | Admin </title>
 <link rel = "icon" href = "photo.png" type = "image/x-icon"> 
 <link  rel="stylesheet" href="css/bootstrap.min.css"/>
  <link  rel="stylesheet" href="css/bootstrap-theme.min.css"/>    
@@ -98,7 +98,7 @@ echo '<span class="pull-right top title1" ><span class="log1"><span class="glyph
 
 $result = mysqli_query($con,"SELECT * FROM quiz ORDER BY date DESC") or die('Error');
 echo  '<div class="panel"><table class="table table-striped title1">
-<tr><td><b>S.N.</b></td><td><b>Topic</b></td><td><b>Total question</b></td><td><b>Marks</b></td><td><b>positive</b></td><td><b>negative</b></td><td><b>Time limit</b></td><td></td></tr>';
+<tr><td><b>S.N.</b></td><td><b>Topic</b></td><td><b>Total question</b></td><td><b>Marks</b></td><td><b>Positive</b></td><td><b>Negative</b></td><td><b>Time limit</b></td><td></td></tr>';
 $c=1;
 while($row = mysqli_fetch_array($result)) {
 	$title = $row['title'];
@@ -237,7 +237,7 @@ echo '
 <div class="form-group">
   <label class="col-md-12 control-label" for="name"></label>  
   <div class="col-md-12">
-  <input id="email" name="email" placeholder="Enter Admin Email" class="form-control input-md" type="email">
+  <input id="email" name="email" placeholder="Enter new email" class="form-control input-md" type="email">
     
   </div>
 </div>
@@ -248,7 +248,7 @@ echo '
 <div class="form-group">
   <label class="col-md-12 control-label" for="total"></label>  
   <div class="col-md-12">
-  <input id="password" name="password" placeholder="Enter password" class="form-control input-md" type="password">
+  <input id="password" name="password" placeholder="Create a password" class="form-control input-md" type="password">
     
   </div>
 </div>
