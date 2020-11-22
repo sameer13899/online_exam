@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Onine examiner</title>
+<link rel = "icon" href = "photo.png" type = "image/x-icon"> 
 <link  rel="stylesheet" href="css/bootstrap.min.css"/>
  <link  rel="stylesheet" href="css/bootstrap-theme.min.css"/>    
  <link rel="stylesheet" href="css/main.css">
@@ -599,6 +600,14 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
         <p>CSE 7C 05</p>
       </div>
     </div>
+    <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="photo.png" alt="SAMEER" width="400" height="300">
+        <p><strong>SAMEER SONI</strong></p>
+        <p>SSGI 3rd Year BTECH</p>
+      </div>
+    </div>
+
     
   </div><br>
   
