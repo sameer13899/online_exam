@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Online examiner</title>
+<title>Student</title>
 <link  rel="stylesheet" href="css/bootstrap.min.css"/>
  <link  rel="stylesheet" href="css/bootstrap-theme.min.css"/>    
  <link rel="stylesheet" href="css/main.css">
@@ -19,6 +19,7 @@
 {echo'<script>alert("'.@$_GET['w'].'");</script>';}
 ?>
 <!--alert message end-->
+
 
 </head>
 <?php
@@ -80,10 +81,6 @@ echo '<span class="pull-right top title1" ><span class="log1"><span class="glyph
 <div class="col-md-12">
 
 
- 
-
-
-
 <!--home start-->
 <?php if(@$_GET['q']==1) {
 
@@ -108,7 +105,7 @@ if($rowcount == 0){
 }
 else
 {
-echo '<tr style="color:#99cc32"><td>'.$c++.'</td><td>'.$title.'&nbsp;<span title="This quiz is already solve by you" class="glyphicon glyphicon-ok" aria-hidden="true"></span></td><td>'.$total.'</td><td>'.$sahi*$total.'</td><td>'.$sahi.'</td><td>'.$wrong.'</td><td>'.$time.'&nbsp;min</td>
+echo '<tr style="color:#99cc32"><td>'.$c++.'</td><td>'.$title.'&nbsp;<span title="This quiz is already solved by you" class="glyphicon glyphicon-ok" aria-hidden="true"></span></td><td>'.$total.'</td><td>'.$sahi*$total.'</td><td>'.$sahi.'</td><td>'.$wrong.'</td><td>'.$time.'&nbsp;min</td>
   </tr>';
 }
 }
@@ -135,8 +132,8 @@ echo '<div class="panel"<a title="Back to Archive" href="update.php?q1=2"><b><sp
 <span style="line-height:35px;padding:5px;"></span><br />'.$intro.'</div></div>';}
 }?>
 <!--quiz reading portion closed-->
-
-<!--<span id="countdown" class="timer"></span>
+<!--
+<span id="countdown" class="timer"></span>
 <script>
 var seconds = 40;
     function secondPassed() {
@@ -154,11 +151,13 @@ var seconds = 40;
     }
     }
 var countdownTimer = setInterval('secondPassed()', 1000);
-</script>-->
-
+</script>
+-->
 <!--home closed-->
 
 <!--quiz start-->
+
+
 <?php
 if(@$_GET['q']== 'quiz' && @$_GET['step']== 2) {
 $eid=@$_GET['eid'];

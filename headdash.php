@@ -50,7 +50,7 @@ else
 $name = $_SESSION['name'];
 
 include_once 'dbConnection.php';
-echo '<span class="pull-right top title1" ><span class="log1"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp;&nbsp;&nbsp;&nbsp;Hello,</span> <a href="headdash.php" class="log log1">'.$email.'</a>&nbsp;|&nbsp;<a href="logout.php?q=headdash.php" class="log"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>&nbsp;Signout</button></a></span>';
+echo '<span class="pull-right top title1" ><span class="log1"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp;&nbsp;&nbsp;&nbsp;Hello,</span> <a href="headdash.php" class="log log1">'.$name.'</a>&nbsp;|&nbsp;<a href="logout.php?q=headdash.php" class="log"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>&nbsp;Signout</button></a></span>';
 }?>
 
 </div></div>
@@ -67,7 +67,7 @@ echo '<span class="pull-right top title1" ><span class="log1"><span class="glyph
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="headdash.php?q=0"><b>Dashboard - head</b></a>
+      <a class="navbar-brand" href="headdash.php?q=0"><b>Dashboard - Admin</b></a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

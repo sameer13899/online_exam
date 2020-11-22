@@ -27,6 +27,8 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -34,7 +36,10 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
   <style>
   body 
 
-
+.stext {
+	 font-family: 'Lato', sans-serif;
+}
+	 
 .modal {
   text-align: center;
 }
@@ -289,14 +294,6 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="jumbotron text-center">
   <h1>Online Examination</h1> 
   <p>e-EXAMINATION</p> 
-  <!--  form>
-    <div class="input-group">
-      <input type="email" class="form-control" size="50" placeholder="Email Address" required>
-      <div class="input-group-btn">
-        <button type="button" class="btn btn-danger">Subscribe</button>
-      </div>
-    </div>
-  </form -->
 </div>
 
 
@@ -307,7 +304,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title"><span style="color:#f4511e;font-family:Montserrat, sans-serif; font-size: 20px !important;letter-spacing: 4px; "><b>LOGIN -ADMIN</b></span></h4>
+        <h4 class="modal-title"><span style="color:#f4511e;font-family:Montserrat, sans-serif; font-size: 20px !important;letter-spacing: 4px; "><b>LOGIN - ADMIN</b></span></h4>
       </div>
       <div class="modal-body title1">
 <div class="row">
@@ -341,7 +338,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title"><span style="color:#f4511e;font-family:Montserrat, sans-serif; font-size: 20px !important;letter-spacing: 4px; "><b>LOGIN -TEACHER</b></span></h4>
+        <h4 class="modal-title"><span style="color:#f4511e;font-family:Montserrat, sans-serif; font-size: 20px !important;letter-spacing: 4px; "><b>LOGIN - TEACHER</b></span></h4>
       </div>
       <div class="modal-body title1">
 <div class="row">
@@ -374,7 +371,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-globe logo slideanim"></span>
     </div>
-    <div class="col-sm-8">
+    <div class="col-sm-8 stext">
       <h2>Our Values</h2><br>
       <h4><strong>MISSION:</strong> Our mission is using one platform for examinations. Reduce paperwork and offering quick and accurate results. </h4><br>
       <p><strong>VISION:</strong> Our vision of Online Exam System is more popularly helps for our modern age system. It helps us to use the present  technology into examiantion system . It can be helpful for quick and accurate results.Through it helps for only limited sector of people , it is cost efficient , eco friendly and so on.</p>
@@ -446,7 +443,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="form-group">
   <label class="col-md-3 control-label" for="name"></label>  
   <div class="col-md-6">
-  <input id="name" name="name" placeholder="Enter your name" class="form-control input-md" type="text">
+  <input id="name" name="name" placeholder="Enter your Name" class="form-control input-md" type="text">
     
   </div>
 </div>
@@ -455,7 +452,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="form-group">
   <label class="col-md-3 control-label" for="gender"></label>
   <div class="col-md-6">
-    <select id="gender" name="gender" placeholder="Enter your gender" class="form-control input-md" >
+    <select id="gender" name="gender" placeholder="Enter your Gender" class="form-control input-md" >
    <option value="Male">Select Gender</option>
   <option value="M">Male</option>
   <option value="F">Female</option> </select>
@@ -466,7 +463,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="form-group">
   <label class="col-md-3 control-label" for="name"></label>  
   <div class="col-md-6">
-  <input id="college" name="college" placeholder="Enter your college name" class="form-control input-md" type="text">
+  <input id="college" name="college" placeholder="Enter your College name" class="form-control input-md" type="text">
     
   </div>
 </div>
@@ -476,7 +473,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="form-group">
   <label class="col-md-3 control-label title1" for="email"></label>
   <div class="col-md-6">
-    <input id="email" name="email" placeholder="Enter your email-id" class="form-control input-md" type="email">
+    <input id="email" name="email" placeholder="Enter your Email-id" class="form-control input-md" type="email">
     
   </div>
 </div>
@@ -485,7 +482,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="form-group">
   <label class="col-md-3 control-label" for="mob"></label>  
   <div class="col-md-6">
-  <input id="mob" name="mob" placeholder="Enter your mobile number" class="form-control input-md" type="number">
+  <input id="mob" name="mob" placeholder="Enter Mobile Number" class="form-control input-md" type="number">
     
   </div>
 </div>
@@ -495,7 +492,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="form-group">
   <label class="col-md-3 control-label" for="password"></label>
   <div class="col-md-6">
-    <input id="password" name="password" placeholder="Enter your password" class="form-control input-md" type="password">
+    <input id="password" name="password" placeholder="Enter Password" class="form-control input-md" type="password">
     
   </div>
 </div>
@@ -503,7 +500,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="form-group">
   <label class="col-md-3 control-label" for="cpassword"></label>
   <div class="col-md-6">
-    <input id="cpassword" name="cpassword" placeholder="Conform Password" class="form-control input-md" type="password">
+    <input id="cpassword" name="cpassword" placeholder="Confirm Password" class="form-control input-md" type="password">
     
   </div>
 </div>
@@ -538,8 +535,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
   <br>
   <div class="row slideanim">
     <div class="col-sm-4">
-      <!-- span class="glyphicon glyphicon-off logo-small"></span-->
-      <i class="material-icons" style="font-size:60px;color:red">group_add</i>
+      <span class="glyphicon glyphicon-globe logo-small"></span>
       <h4>e Examination</h4>
       <p> Multiple users One platform</p>
     </div>
@@ -579,18 +575,28 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
   <h2>Developers</h2><br>
   <h4>Who are we</h4>
   <div class="row text-center slideanim">
-    <div class="col-sm-4">
+    <div class="col-sm-6">
       <div class="thumbnail">
-        <img src="photo.jpg" alt="PRASANTH" width="400" height="300">
-        <p><strong>PRASANTH SAGAR KOTTAKOTA</strong></p>
-        <p>Nitk 3rd year BTECH</p>
+        <br><p><strong>SAMEER SONI</strong></p>
+        <p>CSE 7C 01</p>
       </div>
     </div>
-    <div class="col-sm-4">
+	<div class="col-sm-6">
       <div class="thumbnail">
-        <img src="profilepic.jpg" alt="VIJAY" width="400" height="300">
-        <p><strong>VIJAY KUMAR</strong></p>
-        <p>Nitk 3rd year BTECH</p>
+        <br><p><strong>SANJANA YADAV</strong></p>
+        <p>CSE 7C 03</p>
+      </div>
+    </div>
+	<div class="col-sm-6">
+      <div class="thumbnail">
+        <br><p><strong>SHAILESH PATEL</strong></p>
+        <p>CSE 7C 04</p>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="thumbnail">
+        <br><p><strong>SHAMBHAVI UPADHYAY</strong></p>
+        <p>CSE 7C 05</p>
       </div>
     </div>
     
@@ -636,9 +642,9 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
     <div class="col-sm-8">
       <h2>About Page</h2><br>
       <h4>Online examination System is conducting a test online to measure the knowledge of the participants on a given topic. In the olden days everybody had to gather in a classroom at the same time to take an exam. With online examination students can do the exam online, in their own time and with their own device, regardless where they life. You online need a browser and internet connection. </h4><br>
-      <p>Online Examination System (OES) is a platform to hold online examinations. It caters to many requirements of holding online examinations. The system can generate statistical data for records. The system makes it possible to maintain a repository of questions, and then generate papers at a later stage, such that the lecturer has more flexibility over holding online quizzes. Furthermore, it provides the functionality to mark the papers automatically.</p> 
+      <h4>Online Examination System (OES) is a platform to hold online examinations. It caters to many requirements of holding online examinations. The system can generate statistical data for records. The system makes it possible to maintain a repository of questions, and then generate papers at a later stage, such that the lecturer has more flexibility over holding online quizzes. Furthermore, it provides the functionality to mark the papers automatically.</h4> 
 
-      <br><button class="btn btn-default btn-lg">Get in Touch</button>
+      <br><a class="btn btn-default btn-lg" href="#contact">Get in Touch</a>
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-signal logo"></span>
@@ -653,9 +659,9 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
   <div class="row">
     <div class="col-sm-5">
       <p>Contact us and we'll get back to you within 24 hours.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Karnataka, INDIA</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +91 9491849828 </p>
-      <p><span class="glyphicon glyphicon-envelope"></span> kpsagar1999@gmail.com</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Shri Shankaracharya Group of Institutions, Bhilai, Chhattisgarh</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +91 9999999999 </p>
+      <p><span class="glyphicon glyphicon-envelope"></span> admin@gmail.com</p>
     </div>
     <div class="col-sm-7 slideanim">
 
@@ -682,37 +688,19 @@ else
           <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
         </div>
         <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="subject" placeholder="subject" type="text" required>
+          <input class="form-control" id="email" name="subject" placeholder="Subject" type="text" required>
         </div>
       </div>
       <textarea class="form-control" id="comments" name="feedback" placeholder="Comment" rows="4"></textarea><br>
       <div class="row">
         <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" name="submit" input type="submit">send</button>
+          <button class="btn btn-default pull-right" name="submit" input type="submit">Send</button>
         </div>
       </form>';}?>
       </div>
     </div>
   </div>
 </div>
-
-
-<!-- Add Google Maps -->
-<div id="googleMap" style="height:400px;width:100%;"></div>
-<script>
-function myMap() {
-var myCenter = new google.maps.LatLng(13.0108439, 74.7921164);
-var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-var marker = new google.maps.Marker({position:myCenter});
-marker.setMap(map);
-}
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFj4gNzJYXg7z8mlzs0fHLKvi1MAZYI3c&callback=myMap"></script>
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
 
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
